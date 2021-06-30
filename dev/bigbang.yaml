@@ -10,9 +10,9 @@ metadata:
   namespace: bigbang
 spec:
   interval: 1m
-  url: https://replace-with-your-git-repo.git
+  url: https://github.com/sebastus/bigbang-template.git
   ref:
-    branch: replace-with-your-branch
+    branch: go-test
   secretRef:
     name: private-git
 ---
